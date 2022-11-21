@@ -8,6 +8,6 @@ Vue.js를 이용하여 간단한 예제를 구현한 프로젝트 입니다.
 
 ![onda2me.vue3](/assets/images/vue3_exam_list.png)
 
-![vuex3 preview](/assets/images/vue3_exam_list.png)
+![vuex3 preview]([/assets/images/vue3_exam_list.png](https://github.com/onda2me/vuex3_basic_example/blob/master/src/assets/images/vue3_exam_list.png))
 
 [1]: /assets/images/main/onda2me_01.PNG (live preview)
