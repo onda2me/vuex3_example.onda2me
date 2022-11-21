@@ -20,7 +20,7 @@ const routes = [
   },
   // user 경로 추가 : start
   {
-    path: '/users/',
+    path: '/users',
     name: 'users',
     component: () => import('@/views/user/UserListView.vue')
   }, 
@@ -30,7 +30,7 @@ const routes = [
     component: () => import('@/views/user/UserDetailView.vue')
   }, // user 경로 추가 : end      
   { 
-    path: "/example/:id",  
+    path: "/example",  
     component: () => import('@/views/example/ExampleHome.vue'), 
     children: [
         { path: 'inputForm', component: () => import('@/views/example/InputForm.vue') },
