@@ -28,9 +28,9 @@ const routes = [
     path: '/users/:id',
     name: 'user',
     component: () => import('@/views/user/UserDetailView.vue')
-  }, // user 경로 추가 : end    
+  }, // user 경로 추가 : end      
   { 
-    path: "/example",  
+    path: "/example/:id",  
     component: () => import('@/views/example/ExampleHome.vue'), 
     children: [
         { path: 'inputForm', component: () => import('@/views/example/InputForm.vue') },

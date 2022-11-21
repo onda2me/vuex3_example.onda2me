@@ -16,6 +16,7 @@ export default {
     data() {
       return {
         urlList : [
+          {path: '/example/',                name: 'IntroForm'},
           {path: '/example/InputForm',       name: 'InputForm'},
           {path: '/example/ConditionNumber', name: 'ConditionNumber'}
         ]
