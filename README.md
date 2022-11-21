@@ -1,24 +1,9 @@
 # vuex3
 
-## Project setup
-```
-yarn install
-```
+**vue.js:** 사용자 인터페이스 구축을 위한 JavaScript 프레임워크    
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
 
-### Compiles and minifies for production
-```
-yarn build
-```
 
-### Lints and fixes files
-```
-yarn lint
-```
+Vue.js를 이용하여 간단한 예제를 구현한 프로젝트 입니다.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![onda2me.vue3](/assets/images/vue3_exam_list.png)

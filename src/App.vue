@@ -1,17 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <LayoutNavi />
+    <div class="contents">
+      <router-view />
+    </div>
+    <LayoutFooter />
+  </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script> 
+import LayoutNavi   from '@/components/layout/LayoutNavi.vue'
+import LayoutFooter from '@/components/layout/LayoutFooter.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    LayoutNavi,
+    LayoutFooter
   }
-}
+} 
 </script>
 
 <style>
@@ -21,6 +28,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+.contents {
+  padding: 10px;
+  text-align: left; 
 }
 </style>
