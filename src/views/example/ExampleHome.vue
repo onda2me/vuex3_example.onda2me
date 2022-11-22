@@ -16,8 +16,14 @@ export default {
     data() {
       return {
         urlList : [
-          {path: '/example/InputForm',       name: 'InputForm'},
-          {path: '/example/ConditionNumber', name: 'ConditionNumber'}
+          {path: '/example/InputForm',          name: 'InputForm'},
+          {path: '/example/ConditionNumber',    name: 'ConditionNumber'},
+          {path: '/example/ToggleColor',        name: 'ToggleColor'},
+          {path: '/example/SortSearch',         name: 'SortSearch'},
+          {path: '/example/CRUD',               name: 'CRUD'},
+          {path: '/example/BasicBinding',       name: 'BasicBinding'},
+          {path: '/example/BasicClick',         name: 'BasicClick'},
+          {path: '/example/BasicMethods',       name: 'BasicMethods'}
         ]
       }
     }

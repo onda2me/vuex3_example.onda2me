@@ -33,10 +33,22 @@ const routes = [
     path: "/example",  
     component: () => import('@/views/example/ExampleHome.vue'), 
     children: [
-        { path: 'inputForm', component: () => import('@/views/example/InputForm.vue') },
-        { path: 'conditionNumber', component: () => import('@/views/example/ConditionNumber.vue') }      
+        { path: 'InputForm',        component: () => import('@/views/example/01InputForm.vue') },
+        { path: 'ConditionNumber',  component: () => import('@/views/example/02ConditionNumber.vue') },
+        { path: 'ToggleColor',      component: () => import('@/views/example/03ToggleColor.vue') },
+        { path: 'SortSearch',       component: () => import('@/views/example/04SortSearch.vue') },
+        { path: 'CRUD',             component: () => import('@/views/example/05CRUD.vue') },
+        { path: 'BasicBinding',     component: () => import('@/views/example/Basic01Binding.vue') },
+        { path: 'BasicClick',       component: () => import('@/views/example/Basic02Click.vue') },
+        { path: 'BasicMethods',     component: () => import('@/views/example/Basic03Methods.vue') }      
     ]
   } ,
+  // { 
+  //   path: "/exam/:id",  
+  //   name: 'exam',
+  //   component: () => import('@/views/example/:id.vue')
+  // } ,  
+  // { path : '/example', redirect: '/example/inputForm' },
   {
     path: '/about',
     name: 'about',
