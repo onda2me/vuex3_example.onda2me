@@ -13,7 +13,7 @@
 
 [2. 예제코드](https://github.com/onda2me/vuex3_basic_example/)    
 
-3. 예제목록
+[3. 예제목록]()
   1) 데이타 바인딩 - Text, Checkbox
   2) 숫자 목록 - Push, Pop, Toggle, Reverse
   3) 데이타 바인딩 - click, toggle, v-if
