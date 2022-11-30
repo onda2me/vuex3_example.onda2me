@@ -10,13 +10,13 @@
 ## 구성
 
 [1. 예제설명](https://onda2me.github.io/post/#vue)    
-  + https://onda2me.github.io/ 
+  + [https://onda2me.github.io/post/#vue](https://onda2me.github.io/post/#vue) 
   1) Vue3 프로젝트 생성하기
   2) Vue3 Router로 웹페이지 만들기
   3) Header, Footer, Content 전역 컴포넌트로 분리하기
   
 [2. 예제코드](https://github.com/onda2me/vuex3_basic_example/)    
-  + https://github.com/onda2me/
+  + https://github.com/onda2me/vuex3_basic_example/
   
 [3. 예제목록](#)
   1) 데이타 바인딩 - Text, Checkbox
